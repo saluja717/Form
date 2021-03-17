@@ -1,0 +1,173 @@
+body
+{
+	background-image: url(login.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top:70%;
+    background-repeat: no-repeat;    
+}
+#icon
+{
+	width: 75px;
+	height:75px;
+	background:url(user.png);
+	background-size: cover;
+	border-radius: 50% 50%;
+	position: absolute;
+	top: -40px;
+	left: 36%;
+}
+#box
+{
+	width: 300px;
+	height: 500px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform:translate(-50%,-50%);
+	background-color: black;
+	opacity: 0.75;
+
+}
+input
+{
+ position: relative;
+	top:-50px;
+	border: none;
+	border-bottom: 2px solid black;
+	margin-bottom: 40px;
+	height: 40px;
+    width: 200px;	
+}
+#Form
+{
+	position: absolute;
+	top: 30%;
+
+}
+button
+{
+	 position: relative;
+		top:-50px;
+	color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    border: none;
+    background-color:blue;
+    font-weight: bold;
+    height: 40px;
+    width: 200px;
+}
+#Form 
+{
+   text-align: center;
+  
+}
+a
+{
+	 position: relative;
+		top:-50px;
+	text-decoration-line: none;
+	color: blue;
+}
+#image
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 50% 50%;
+	margin-right: 10px;
+
+}
+#Sub
+{
+	
+	position: relative;
+	text-decoration-line: none;
+	color: white;
+	}
+@media screen and (max-width: 360px)
+{
+	body
+	{
+		background-image: url(Sun.jpg);
+	}
+    #box
+    {
+     width: 250px;
+	height: 400px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	background-color: black;
+	opacity: 0.75;
+    }	
+  input
+{
+     position: relative;
+	top:-30%;
+	border: none;
+	border-bottom: 2px solid black;
+	margin-bottom: 10px;
+	height: 50px;
+    width: 60%;	
+}
+#Form
+{
+	position: absolute;
+	display: block;
+	top: 15%;
+}
+#icon
+{
+	width: 75px;
+	height:75px;
+	
+}
+button
+{
+	 position: relative;
+	top: 20%;
+
+	color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    border: none;
+    background-color:blue;
+    font-weight: bold;
+    height: 50px;
+    width:200px;
+}
+#Form 
+{
+   text-align: center;
+  
+}
+a
+{
+	 position: relative;
+	 top: 40%;
+	
+	text-decoration-line: none;
+	color: white;
+}
+#image
+{
+	top: 20%;
+	
+	height: 30px;
+	width: 30px;
+	border-radius: 50% 50%;
+
+}
+#Sub a
+{
+	position: relative;
+	text-decoration-line: none;
+	color: blue;
+}
+}
+
